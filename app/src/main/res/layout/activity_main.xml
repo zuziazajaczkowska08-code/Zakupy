@@ -1,0 +1,48 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/moja_lista_zakup_w"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/chleb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chleb_5_z" />
+
+    <CheckBox
+        android:id="@+id/mleko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mleko_4_z" />
+
+    <CheckBox
+        android:id="@+id/jajka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jajka_8_z" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oblicz_cen" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/razem_0_z"
+        android:textSize="22sp" />
+
+</LinearLayout>

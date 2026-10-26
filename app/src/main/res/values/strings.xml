@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Zakupy</string>
+    <string name="moja_lista_zakup_w">Moja lista zakupów</string>
+    <string name="chleb_5_z">Chleb - 5 zł</string>
+    <string name="mleko_4_z">Mleko - 4 zł</string>
+    <string name="oblicz_cen">Oblicz cenę</string>
+    <string name="razem_0_z">Razem: 0 zł</string>
+    <string name="jajka_8_z">Jajka - 8 zł</string>
+</resources>
